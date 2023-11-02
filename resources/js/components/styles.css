@@ -1,0 +1,100 @@
+/*admin layout*/
+:root {
+    --primary-bg-color: #BFC0C2;
+    --secondary-bg-color: #000000;
+    --hovered-primary-bg-color: #5A87C7;
+}
+.content{
+    overflow-x: auto;
+    /*white-space: wrap;*/
+    /*height: 100vh;*/
+}
+/*#sidebar-nav {*/
+/*    width: 220px;*/
+/*}*/
+.active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+s {
+    text-decoration: line-through;
+    color: red; /* You can change the color as desired */
+}
+
+.custom-range{
+    width: 100px;
+}
+.sidebar-title{
+    border: 2px solid #5A87C7;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.sidebar-title:hover {
+    background-color: #6a8fc267;
+}
+
+.sidebar-title.active, .list-group-item ,.sidebar-title{
+    background-color: #5A87C7 !important;
+}
+/*admin layout ends*/
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 15px;
+
+}
+.pagination-item{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 3px;
+    cursor: pointer;
+}
+.btn.linked-icon {
+    /*background-color: var(--primary-bg-color);*/
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.linked-icon:hover {
+    background-color: var(--hovered-primary-bg-color);
+    color: white;
+}
+.active-pag{
+    font-weight: bold;
+    color: black;
+}
+.grey-bg{
+    background-color: #BFC0C2 !important;
+}
+.linked-icon{
+
+}
+.search-grey-bg{
+    background-color: #BFC0C2 !important;
+    border: none !important;
+}
+
+/*navbar start*/
+.txt-c{
+    color: black;
+}
+.ico-c{
+    color:#555555;
+}
+.cur-point{
+    cursor: pointer;
+}
+.header-main{
+    max-width: 1300px;
+    margin:auto;
+}
+
+
+.v-center{
+    align-items: center;
+}
