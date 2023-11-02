@@ -2,7 +2,7 @@ Mini Crm Admin Panel
 
 please run following commands to setup the project
 
---git clone https://github.com/your-repo-link.git
+--git clone https://github.com/stech4588/miniAdminPortal
 --cd mini-crm-admin-panel
 --composer install
 --npm install
